@@ -15,7 +15,7 @@ export default function ProductsDetails() {
             padding: "30px",
             boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
             borderRadius: "12px",
-            backgroundColor: "#fff",
+            backgroundColor: "#f5f3ff", // Light lavender
             fontFamily: "'Segoe UI', sans-serif",
             textAlign: "center"
         },
@@ -28,7 +28,7 @@ export default function ProductsDetails() {
         name: {
             fontSize: "2rem",
             marginBottom: "10px",
-            color: "#333"
+            color: "#4b0082" // Indigo
         },
         description: {
             fontSize: "1.1rem",
@@ -38,18 +38,18 @@ export default function ProductsDetails() {
         price: {
             fontSize: "1.3rem",
             fontWeight: "bold",
-            color: "green",
+            color: "#6a0dad", // Dark orchid
             marginBottom: "20px"
         },
         button: {
             padding: "12px 25px",
             fontSize: "1rem",
-            backgroundColor: "#4CAF50",
+            background: "linear-gradient(to right, #7b2ff7, #f107a3)", // Gradient
             color: "#fff",
             border: "none",
             borderRadius: "6px",
             cursor: "pointer",
-            transition: "background 0.3s ease"
+            transition: "transform 0.2s ease, background 0.3s ease"
         }
     };
 
@@ -65,6 +65,8 @@ export default function ProductsDetails() {
                     addToCart(product);
                     navigate("/cart");
                 }}
+                onMouseOver={(e) => e.currentTarget.style.transform = "scale(1.05)"}
+                onMouseOut={(e) => e.currentTarget.style.transform = "scale(1)"}
             >
                 🛒 Add to Cart
             </button>

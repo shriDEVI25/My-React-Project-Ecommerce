@@ -1,9 +1,10 @@
 import product1 from "../assets/images/images3.png";
 import product2 from "../assets/images/im1.png";
-import product3 from "../assets/images/im1.png";
-import product4 from "../assets/images/image4.png";
-import product5 from "../assets/images/img5.png";
-
+import product3 from "../assets/images/headphone.png";
+import product4 from "../assets/images/white jacket.png";
+import product5 from "../assets/images/kurti1.png";
+import product6 from "../assets/images/jacket.png";
+import product7 from "../assets/images/img2.png";
 export const products = [
   {
     id: 1,
@@ -13,45 +14,24 @@ export const products = [
     description: "Sleek running sneakers designed for all-day comfort.",
     image: product1,
   },
-  {
-    id: 2,
-    name: "Urban Tee",
-    category: "Clothing",
-    price: 799,
-    description: "Minimalist cotton t-shirt with a modern streetwear vibe.",
-    image: product2,
-  },
+  
   {
     id: 3,
     name: "EchoPulse Headphones",
     category: "Electronics",
-    price: 1499,
+    price: 2000,
     description: "Wireless headphones with deep bass and noise isolation.",
     image: product3,
   },
-  {
-    id: 4,
-    name: "Frostbite Jacket",
-    category: "Clothing",
-    price: 1299,
-    description: "Windproof, insulated winter jacket for extreme cold.",
-    image: product4,
-  },
-  {
-    id: 5,
-    name: "Shadow Cap",
-    category: "Accessories",
-    price: 499,
-    description: "Stylish black cap with adjustable fit and breathable fabric.",
-    image: product5,
-  },
+ 
+ 
   {
     id: 6,
-    name: "Olive Ridge Cap",
-    category: "Accessories",
+    name: "jacket",
+    category: "clothing",
     price: 499,
-    description: "Durable olive-green hat perfect for outdoor activities.",
-    image: product5,
+    description: "Mens Bomber Jacket Men Casual Slim Mens Jacket Sportswear Jacket Plus Size Jackets For Men Coats.",
+    image: product6,
   },
   {
     id: 7,
@@ -77,12 +57,21 @@ export const products = [
     description: "Lightweight shoes built for casual comfort and walking.",
     image: product2,
   },
+  
   {
-    id: 10,
-    name: "Crimson Kicks",
-    category: "Footwear",
-    price: 2499,
-    description: "Bold red sneakers that combine style and performance.",
-    image: product1,
+    id: 11,
+    name: "kurti",
+    category: "clothing",
+    price: 1500,
+    description: "Bold yellow kurti.",
+    image: product5,
+  },
+  {
+    id: 2,
+    name: "T shirt",
+    category: "clothing",
+    price: 990,
+    description: "Men Premium T Shirt Sky Blue, white with Navy Blue stripe.",
+    image: product7,
   },
 ];
